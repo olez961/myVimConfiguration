@@ -14,7 +14,7 @@ nnoremap <Leader>f :NERDTreeFind<CR>
 
 set bg=dark
 colorscheme gruvbox
-set wildmenu
+set wildmenu                             " 命令行自动补全
 set incsearch          	                 " 实时开启搜索高亮
 
 " airline
