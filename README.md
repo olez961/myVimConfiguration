@@ -1,5 +1,11 @@
 # myVimConfiguration
 
+This repo is for chinese friends who has trouble to directly connect github and download some vim plug.
+
+By follow the auto-config tutor below, you'll be able to auto config your vim like this repo.
+
+Something rediculous is that I now realize that I should put this repo in the gitee, interesting.
+
 ## The plug management
 
 I use the vim-plug to manage my vim plugs, reference from [here](https://www.bilibili.com/video/BV17L411c7Eu).
