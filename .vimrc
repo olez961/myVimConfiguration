@@ -235,11 +235,11 @@ noremap <TAB><right> <C-w><right>
 noremap <TAB><up> <C-w><up>
 noremap <TAB><down> <C-w><down>
 " 使用方向键切换buffer
-noremap <Leader><left>  :tabnext<CR>
-noremap <Leader><right> :tabprevious<CR>
+noremap <Leader><left>  :bp<CR>
+noremap <Leader><right> :bn<CR>
 " 使用方括号切换tab
-noremap <Leader>] :bp<CR>
-noremap <Leader>[ :bn<CR>
+noremap <Leader>] :tabnext<CR>
+noremap <Leader>[ :tabprevious<CR>
 " 使用 \ + s 保存, \ + q 退出
 noremap <Leader>s :w<CR>
 noremap <Leader>q :q<CR>
